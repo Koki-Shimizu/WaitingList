@@ -12,6 +12,6 @@ namespace WaitingList.Models
         public string Description { get; set; }
         public DateTime CreatedDate { get; set; }
         public int UncompletedCount { get; set; }
-        public DateTime CompletedDate { get; set; }
+        public Nullable<DateTime> CompletedDate { get; set; }
     }
 }
